@@ -1,10 +1,29 @@
 <?php
 $q=$_POST['q'];
-if($q==="fathey"){header("Location: card_f.html");}
+if($q==="fathey"){
+    header("Location: card_f.html");
+}
+elseif($q==="FATHEY"){header("Location: card_f.html");}
+elseif($q==="FATHI"){header("Location: card_f.html");}
+elseif($q==="fathi"){header("Location: card_f.html");}
 
-elseif($q==="ahmed"){header("Location: card_a.html");}
+if($q==="ahmed")
+{
+    header("Location: card_a.html");
+}
+elseif($q==="AHMED"){header("Location: card_a.html");}
 
-elseif($q==="bassem"){header("Location: card_b.html");}
+if($q==="bassem")
+{
+    header("Location: card_b.html");
+}
+elseif($q==="BASSEM"){header("Location: card_b.html");}
+
+if($q==="adham")
+{
+    header("Location: card_l.html");
+}
+elseif($q==="adham"){header("Location: card_l.html");}
 
 //==============Web Developer==============================
 if($q==="Web Developer"){header("Location: card_sc_w.html");}
